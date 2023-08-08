@@ -45,7 +45,7 @@ ElemType tail(stack s){
     while(p->next!=NULL){
         p=p->next;
     }
-    printf("Õ»µ×ÊÇ£º%d\n",p->data);
+    printf("æ ˆåº•æ˜¯ï¼š%d\n",p->data);
 }
 void printstack(stack s){
     node*p=s->next;
@@ -65,11 +65,11 @@ int main(){
     tail(s);
     printstack(s);
     pop(s,e);
-    printf("Õ»¶¥:%d\n",e);
+    printf("æ ˆé¡¶:%d\n",e);
     pop(s,e);
-    printf("Õ»¶¥:%d\n",e);
+    printf("æ ˆé¡¶:%d\n",e);
     pop(s,e);
-    printf("Õ»¶¥:%d\n",e);
+    printf("æ ˆé¡¶:%d\n",e);
     destroystack(s);
     return 0;
 }
