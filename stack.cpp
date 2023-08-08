@@ -3,8 +3,8 @@
 typedef char ElemType;
 #define Maxsize 20
 typedef struct DNode{
-    ElemType data[Maxsize];//Êý¾ÝÓò
-    int top;//Õ»¶¥Ö¸Õë
+    ElemType data[Maxsize];
+    int top;
 }SeqStack;
 void InitStack(SeqStack &s){
     s.top=-1;
